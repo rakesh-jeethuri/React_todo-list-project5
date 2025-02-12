@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+Todo List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive Todo List App built using React.js. This application allows users to add, mark complete, and delete tasks with a real-time date and time display.
+![image](https://github.com/user-attachments/assets/d557439a-e686-4b10-8fcb-4c8d1ada5490)
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+✅ Add new tasks to the list.✅ Mark tasks as completed (adds a line-through style).✅ Remove tasks from the list.✅ Prevent duplicate tasks from being added.✅ Displays the current date and time, updating in real-time.
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React.js (Functional Components & Hooks)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+HTML, CSS (for styling)
 
-### `npm test`
+React Icons (FaCheck & MdDeleteOutline)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation & Setup
 
-### `npm run build`
+Clone this repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/your-username/todo-list.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+cd todo-list
 
-### `npm run eject`
+Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Open http://localhost:3000/ in your browser.
 
-## Learn More
+Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Type a task in the input field and click Add Task.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Click the ✅ (check button) to mark the task as completed.
 
-### Code Splitting
+Click the 🗑️ (delete button) to remove the task.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Project Structure
 
-### Analyzing the Bundle Size
+Todo-App/
+│── src/
+│   ├── components/
+│   │   ├── Todo.js (Main Component)
+│   ├── styles/
+│   │   ├── Todo.css (Styling)
+│   ├── App.js (Root Component)
+│── public/
+│── package.json
+│── README.md
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License – feel free to modify and use it as needed.
