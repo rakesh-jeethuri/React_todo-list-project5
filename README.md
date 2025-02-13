@@ -19,7 +19,7 @@ Installation & Setup
 
 Clone this repository:
 
-git clone https://github.com/your-username/todo-list.git
+git clone https://github.com/rakesh-jeethuri/todo-list.git
 
 Navigate to the project directory:
 
