@@ -19,7 +19,7 @@ Installation & Setup
 
 Clone this repository:
 
-git clone https://github.com/rakesh-jeethuri/React_todo-list-project5
+git clone https://github.com/rakesh-jeethuri/React_todo-list-project5.git
 
 Navigate to the project directory:
 
